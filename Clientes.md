@@ -1,7 +1,4 @@
-"""Pruebas rápidas del Integrante 1 (ejecutar: python test_cliente.py)."""
-
 from cliente import Cliente
-
 
 def debe_fallar(**cambios):
     datos = dict(id_cliente="C001", nombre="Ana Pérez", documento="1012345678",
